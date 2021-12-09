@@ -1,0 +1,14 @@
+.zoom {
+  transition: transform .2s;
+}
+.zoom:hover {
+  transform: scale(1.03);
+}
+.cambio-boton {
+  transition-duration: 0.4s;
+}
+
+.cambio-boton:hover {
+  background-color: #555555;
+  color: white;
+}

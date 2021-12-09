@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos/css/estilos.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+    <title>Lights-UP</title>
+</head>
+<body class="background-color">
+    <header>
+        <img src="/imagenes/logo/Logo-01.png" width="300" class="rounded mx-auto d-block p-3">
+        <ul class="nav nav-pills nav-fill p-3">
+            <li class="nav-item">
+                <a class="nav-link text-black h5" aria-current="Inicio" href="index.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-black h5" href="disenos.html">Diseños</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-black h5" href="novedades.html">Novedades</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-black h5" href="ofertas.html">Ofertas</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active bg-black h5" href="contacto.html">Contacto</a>
+            </li>
+        </ul>
+    </header>
+    <main>
+        <div class="container">
+            <div class="card mb-3 text-black">
+            <img src="/imagenes/pag-contacto/taller.jpg" class="card-img-top nov_card-img-size">
+                <div class="card-img-overlay ">
+                    <h5 class="card-title text-white">¡NUESTRA HISTORIA!</h5>
+                    <p class="card-text p-3 mb-5 bg-body rounded opacity-75">Lights-up es un proyecto personal, donde realizamos cuadros o lamparas con diseños únicos que al encenderse la luz
+                    cambian generando otra imagen.</p>
+                </div>
+            </div>
+        </div>
+        <div>
+            <p class="container h2">Cualquier duda, consulta o inconveniente será bien recibida
+                No dudes en contactar con nosotros
+            </p>
+            <form class="container p-3">
+                <div class="mb-3 container">
+                    <label for="exampleFormControlInput1" class="form-label">E-mail</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="tu-mail@ejemplo.com">
+                </div>
+                <select class="form-select" aria-label="Default select example">
+                    <option selected>Abrir para elegir la opcion!</option>
+                    <option value="1">Duda</option>
+                    <option value="2">Consulta</option>
+                    <option value="3">inconveniente</option>
+                </select><br>
+                <div class="mb-3">
+                    <label for="exampleFormControlTextarea1" class="form-label"></label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="18"
+                        placeholder="Escribe tu comentario aquí"></textarea>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                    <label class="form-check-label" for="flexCheckChecked">
+                        Quiero recibir notificaciones
+                    </label>
+                </div><br>
+                <button type="submit" class="btn btn-warning p-3">Enviar!</button>
+            </form>
+        </div>
+    </main>
+    <footer class="footer-dark">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6 col-md-3 item">
+                    <h3>Servicios</h3>
+                    <ul>
+                        <li><a href="#">Diseños</a></li>
+                        <li><a href="#">Novedades</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-6 col-md-3 item">
+                    <h3>Nosotros</h3>
+                    <ul>
+                        <li><a href="#">¿Quienes somos?</a></li>
+                        <li><a href="#">Contacto</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-6 item text">
+                    <h3>Lights-UP</h3>
+                    <p>Lights-UP Es un proyecto de cuadros retroluminados con nuestros diseños <br>o pedidos.</p>
+                </div>
+            </div>
+            <p class="copyright"> Lights-UP 2021</p>
+        </div>
+    </footer>    
+</body>
+</html>

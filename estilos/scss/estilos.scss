@@ -1,0 +1,33 @@
+@import "footer";
+@import "fuentes";
+@import "animaciones";
+
+.card-img-size{
+    width: fit-content;
+    height: 300px;
+}
+.carrusel-img-size{
+    width: fit-content;
+    height: 90vh;
+}
+.nov_card-img-size{
+    width: 90vh;
+    height: fit-content;
+}
+.background-color{
+    background-color:yellow
+}
+.foto-center{
+    justify-content: center;
+    border-radius: 10px;
+}
+@media screen and (max-width: 3000px) {
+    .foto-prueba {
+        background-image: url("/imagenes/pag-disenos/friki.jpg");
+    }
+}
+@media screen and (max-width: 1080px) {
+    .foto-prueba  {
+         background-image: url("/imagenes/pag-disenos/friki-c.jpg");
+    }
+}
